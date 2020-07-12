@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Contract</class>
+ <widget class="QMainWindow" name="Contract">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget
+{
+	background:url(:/source/back_1.jpg);
+}
+*{
+font: 9pt &quot;Bauhaus 93&quot;;
+font-size:24px;
+}
+QToolButton{
+background:pink;
+border-radius:60px;
+}
+QPushButton
+{
+background:white;
+border-radius:15px;
+font: 12pt &quot;华文琥珀&quot;;
+}
+QPushButton:hover
+{
+background:pink;
+border-radius:15px;
+font: 12pt &quot;华文琥珀&quot;;
+}
+QLineEdit
+{
+background:rgba(255,255,255,0.5);
+border:none;
+color:white;
+font: 12pt &quot;华文琥珀&quot;;
+background:transparent;
+border-bottom:1px solid #717072;
+}
+QFrame{
+background:rgba(255,255,255,0.6);
+border-radius:15px;
+}
+QLabel
+{
+background:transparent;
+color:black;
+font:20pt &quot;华文琥珀&quot;;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>160</y>
+      <width>571</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>添加QQ：XXXXXX；获得秘籍码</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>350</y>
+      <width>481</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>输入秘籍码</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>420</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>提交</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>34</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

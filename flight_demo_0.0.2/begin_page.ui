@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Begin_page</class>
+ <widget class="QMainWindow" name="Begin_page">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1032</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Begin_page</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget
+{
+	background:url(:/source/back_1.jpg);
+}
+*{
+font: 9pt &quot;Bauhaus 93&quot;;
+font-size:24px;
+}
+QToolButton{
+background:pink;
+border-radius:60px;
+}
+QPushButton
+{
+background:white;
+border-radius:15px;
+font: 12pt &quot;华文琥珀&quot;;
+}
+QPushButton:hover
+{
+background:pink;
+border-radius:15px;
+font: 12pt &quot;华文琥珀&quot;;
+}
+QLineEdit
+{
+background:rgba(255,255,255,0.5);
+border:none;
+color:white;
+font: 12pt &quot;华文琥珀&quot;;
+background:transparent;
+border-bottom:1px solid #717072;
+}
+QFrame{
+background:rgba(255,255,255,0.6);
+border-radius:15px;
+}
+QLabel
+{
+background:transparent;
+color:black;
+font:20pt &quot;华文琥珀&quot;;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>80</y>
+      <width>171</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开心飞行棋</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pB_signup">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>190</y>
+      <width>231</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>注册</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pB_help">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>450</y>
+      <width>231</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>游戏帮助</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pB_signin">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>320</y>
+      <width>231</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>登录</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
